@@ -19,16 +19,16 @@ export function Contact() {
           
           <div className="text-center">
             <Clock className="h-8 w-8 text-pink-500 mx-auto mb-4" />
-            <h3 className="text-xl font-semibold text-white mb-2">Horaire</h3>
-            <p className="text-gray-400">Wednesday - Saturday</p>
-            <p className="text-gray-400">11:00 AM - 3:00 AM</p>
+            <h3 className="text-xl font-semibold text-white mb-2">Horaires</h3>
+            <p className="text-gray-400">Mercredi - Samedi</p>
+            <p className="text-gray-400">11h00 - 3h00</p>
           </div>
           
           <div className="text-center">
             <Phone className="h-8 w-8 text-pink-500 mx-auto mb-4" />
             <h3 className="text-xl font-semibold text-white mb-2">Contact</h3>
             <p className="text-gray-400">+33 3 26 47 05 04</p>
-            <p className="text-gray-400">hello@lbeebar.com</p>
+            <p className="text-gray-400">@l.beebar</p>
           </div>
         </div>
         
