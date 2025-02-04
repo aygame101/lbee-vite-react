@@ -18,8 +18,8 @@ export function Navbar() {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
               <a href="#about" className="text-gray-300 hover:text-pink-500 transition-colors">À propos</a>
-              <a href="#menu" className="text-gray-300 hover:text-pink-500 transition-colors">Carte</a>
-              <a href="#events" className="text-gray-300 hover:text-pink-500 transition-colors">Évènements</a>
+              {/* <a href="#menu" className="text-gray-300 hover:text-pink-500 transition-colors">Carte</a>
+              <a href="#events" className="text-gray-300 hover:text-pink-500 transition-colors">Évènements</a> */}
               <a href="#contact" className="text-gray-300 hover:text-pink-500 transition-colors">Contact</a>
             </div>
           </div>
@@ -36,8 +36,8 @@ export function Navbar() {
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-[#0f0014]/90">
             <a href="#about" className="block px-3 py-2 text-gray-300 hover:text-pink-500">À propos</a>
-            <a href="#menu" className="block px-3 py-2 text-gray-300 hover:text-pink-500">Carte</a>
-            <a href="#events" className="block px-3 py-2 text-gray-300 hover:text-pink-500">Évènements</a>
+            {/* <a href="#menu" className="block px-3 py-2 text-gray-300 hover:text-pink-500">Carte</a>
+            <a href="#events" className="block px-3 py-2 text-gray-300 hover:text-pink-500">Évènements</a> */}
             <a href="#contact" className="block px-3 py-2 text-gray-300 hover:text-pink-500">Contact</a>
           </div>
         </div>

@@ -1,8 +1,8 @@
-import React from 'react';
+// import React from 'react';
 import { Navbar } from '../components/Navbar';
 import { Hero } from '../components/Hero';
-import { Menu } from '../components/Menu';
-import { Events } from '../components/Events';
+// import { Menu } from '../components/Menu';
+// import { Events } from '../components/Events';
 import { Contact } from '../components/Contact';
 
 export function HomePage() {
@@ -10,8 +10,8 @@ export function HomePage() {
     <div className="min-h-screen bg-black">
       <Navbar />
       <Hero />
-      <Menu />
-      <Events />
+      {/* <Menu />
+      <Events /> */}
       <Contact />
     </div>
   );

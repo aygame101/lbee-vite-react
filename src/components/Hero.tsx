@@ -21,7 +21,7 @@ export function Hero() {
           Laissez vos chevaux à l’entrée et venez boire une bière ! 
           </p>
           <a
-            href="#menu"
+            href="../../carte.pdf"
             className="inline-block bg-pink-500 text-white px-8 py-3 rounded-full font-semibold hover:bg-pink-600 transition-colors"
           >
             Voir la carte
